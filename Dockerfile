@@ -10,7 +10,7 @@ COPY package*.json ./
 # Install app dependencies, including Material-UI 5
 RUN npm install
 
-# Copy the rest of the application code to the working directory
+# Copy the rest of the application code to the working direc
 COPY . .
 
 # Build the React app
